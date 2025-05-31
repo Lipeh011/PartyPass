@@ -1,0 +1,588 @@
+.header-background {
+  background: url("../img/background-red.jpg");
+  pointer-events: auto !important;
+  background-size: 100% !important;
+  opacity: 0.85 !important;
+  background-position: 0 0 !important;
+  content: '';
+  width: auto;
+  height: auto;
+}
+.header-background .logo-alpha{
+ width: 2em;
+ height: 2em;
+ align-items: center;
+}
+.cabecalhoPrincipal .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cabecalhoPrincipal-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cabecalhoPrincipal-nav .cabecalhoPrincipal-nav-link {
+  margin: 0 1.5em;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.cabecalhoPrincipal-nav .cabecalhoPrincipal-nav-link a:hover{
+  color: #ff0062;
+  transition: 0.5s all;
+  font-size: 16.5px;
+}
+
+.cabecalhoPrincipal-titulo {
+  display: flex;
+  align-items: center; 
+}
+
+.cabecalhoPrincipal-titulo a {
+  font-size: 1em;
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-left: 0.5em; 
+}
+
+.content-plans {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+  padding: 5vh;;
+}
+
+.titulo-plans {
+  font-size: 3em;
+  text-align: center;
+  color: #FFFFFF
+}
+
+.subtitulo-plans{
+  font-size: 1.3em;
+  margin: 2em auto;
+  text-align: center;
+  color: #FFFFFF;
+}
+.subtitulo-app {
+  font-size: 15px;
+  text-align: center;
+}
+
+.button-plans {
+  display: flex;
+  align-items: center;
+  margin: 25px auto;
+  border-radius: .2em;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0);
+  padding: 4%;
+  font-weight: 400;
+  font-size: 16px;
+  border-bottom: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 13px 100px;
+}
+
+.button-plans:hover{
+  box-shadow: 3px 5px 8px #ff0062;
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+.container-destaques {
+  text-align: center;
+  background: #9603402a;
+  padding: 50px;
+}
+.container-destaques img{
+  height: 350px;
+  width: 650px;
+}
+.container-imgs{
+  height: 30px;
+  width: 30px;
+}
+.titulo-destaque {
+  font-size: 2em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #4F4C4C;
+  margin-bottom: 30px;
+
+}
+
+.text-destaques {
+  margin: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  Line-height: 25px;
+  margin-bottom: 40px;
+  color: #4d4d4d;
+
+}
+
+.button-destaques {
+  display: flex;
+  align-items: center;
+  margin: 50px auto;
+  border-radius: .2em;
+  color: #8b0013;
+  background: rgba(255, 255, 255, 0);
+  padding: 4%;
+  font-weight: 400;
+  font-size: 16px;
+  border-bottom: #ff0022;
+  border: 1px solid #8b0013;
+  padding: 13px 100px;
+}
+.button-destaques:hover{
+  box-shadow: 3px 5px 8px #ff0022;
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.5s all;
+}
+.mvv {
+  background: #F7F4F4;
+  text-align: center;
+  color:#4d4d4d;
+  padding-top: 50px;
+}
+.container-flex {
+  background: #F7F4F4;
+  display: flex;
+  justify-content: center;
+  align-content:start;
+  padding: 80px;
+}
+.destaque-text {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.1em;
+  color: #333; /* Cor do texto */
+  margin-bottom: 40px;
+
+}
+.subtitulo-destaques {
+  margin: 40px auto;
+  font-family: 'Arial', sans-serif; /* Escolha uma fonte que se adapte ao estilo do seu site */
+  font-size: 1em; /* Ajuste o tamanho da fonte conforme necessário */
+  color: #333; /* Escolha uma cor que contraste bem com o fundo */
+  text-align: center; /* Centralize o texto */
+  text-transform: uppercase; /* Transforme o texto em maiúsculas */
+  letter-spacing: 2px; /* Aumente o espaçamento entre as letras */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adicione uma sombra ao texto para destacá-lo */
+}
+.cotainer_title {
+  text-align: center;
+  padding:  0 auto ;
+}
+
+.tempo {
+  width: 14em;
+}
+
+.foco {
+  width: 14em;
+  margin-top: 7em;
+}
+
+.especialistas {
+  width: 14em;
+}
+
+.container-flex p {
+  margin: 21px auto;
+
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+}
+.title-localizacao {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #4F4C4C;
+  font-size: 2em;
+  line-height: 24px;
+  width: 67%;
+  margin-bottom: 1em;
+
+}
+
+.map-localizacao{
+ width: 35em;
+ height: 20em;
+
+}
+
+.map-container {
+  position: relative;
+  padding-bottom: 56.25%; /* Proporção 16:9 */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.title-sobre {
+  margin-left: 5px;
+}
+.text-sobre{
+  padding: 5px 0;
+  margin: 15px 0;
+  color: #666666;
+}
+.title-about {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #4F4C4C;
+  font-size: 2em;
+  line-height: 24px;
+  margin: 20px 0;
+  width: 67%;
+  margin-bottom: 1em;
+}
+.container-sobre {
+  margin: 30px auto;
+  height: 30em;
+  padding: 120px;
+}
+
+.container-sobre p {
+  width: 48%;
+  text-align: start;
+  font-size: 17px;
+
+}
+.container-text{
+  padding: 5px 0;
+  margin: 15px 0;
+  color: #666666;
+}
+.logo-apps {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 45%;
+  flex: 1 1 20%;
+}
+
+.logo-apps .container-imgs {
+  margin: 10px 0px;
+}
+
+.img-sobre {
+  float: right;
+  margin-bottom: 45px;
+  
+}
+
+.p-color {
+  color: #00460f;
+}
+
+.container-imgs-sobre {
+  display: flex;
+  width: 600px;
+  height: 290px;
+
+}
+
+/* Estilos para a seção de planos */
+.serv-title {
+  color: #ffeff3;
+ 
+}
+.container-planos {
+  background: #2c0000;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.plans-title {
+  padding-top: 80px;
+  background: #2c0000;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  font-size: 2em;
+  display: block;
+}
+
+.card-trans, .card-log, .card-arm {
+  width: 18em;
+  margin: 27px;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-trans, .card-log {
+  background: linear-gradient(135deg, #8B0000, #B22222); /* Vermelho Escuro ao Vermelho Sangue */
+  box-shadow: 0px 4px 8px rgba(255, 0, 0, 0.5);
+}
+
+.card-arm {
+  background: linear-gradient(135deg, #8B0000, #B22222); /* Vermelho Escuro ao Vermelho Sangue */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-trans:hover, .card-log:hover, .card-arm:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.3);
+}
+
+.title-card {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 13px auto;
+  padding-bottom: 10px;
+  color: #e25672; /* Vermelho Intenso */
+}
+
+.price-card {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  font-size: 48px;
+  line-height: 48px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.container-planos p {
+  text-align: center;
+  padding: 5px 0;
+  margin: 15px 0;
+  color: #ffffff;
+}
+
+.card-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px auto;
+  border-radius: 0.2em;
+  color: #ffffff;
+  background: linear-gradient(135deg, #56CCF2, #4ba2e8); /* Gradiente de azul */
+  padding: 10px 53px;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card-button:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* Estilos específicos para os planos Ultra e Mega */
+.ultra {
+  color: #FFD700; /* Ouro */
+}
+
+.ultra-button, .card-button {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  margin-top: 95px;
+  background: linear-gradient(135deg, #B22222, #8B0000); /* Gradiente de Vermelho Sangue ao Vermelho Escuro */
+}
+
+.basico {
+  margin-top: 105px;
+}
+
+.mega {
+ color: #0bd43a;
+}
+.mega-button {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background: linear-gradient(135deg, #B22222, #8B0000); /* Gradiente de Vermelho Sangue ao Vermelho Escuro */
+  margin-top: 88px;
+}
+
+/* Efeitos e Transições */
+.card-trans:hover, .card-log:hover, .card-arm:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.3);
+}
+
+.card-button:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+  font-size: 17px;
+  font-weight: 500;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Ajuste conforme necessário */
+}
+
+/* App */
+
+.container-download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #2c2744;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.subtitulo-app {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  margin: 60px auto;
+  color: #ffcbd8;
+  animation: fadeIn 1.5s ease-in-out 0.5s forwards;
+}
+
+.app-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 1.5s ease-in-out 0.7s forwards;
+  margin: 20px auto;
+}
+
+.download-text {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  animation: fadeIn 1.5s ease-in-out 0.9s forwards;
+  margin-top: 50px;
+  color:#ffffff ;
+  
+}
+.download-text-ii {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  animation: fadeIn 1.5s ease-in-out 0.9s forwards;
+  color:#ffffff ;
+  margin-bottom: 50px;
+}
+.button-download {
+  padding: 15px 30px;
+  background: linear-gradient(135deg, #ff0066, #e6005c);
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+  animation: fadeIn 1.5s ease-in-out 1.1s forwards;
+  display: flex;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.button-download i {
+  margin-right: 10px;
+}
+
+.button-download:hover {
+  background: linear-gradient(135deg, #e6005c, #ff0066);
+  transform: scale(1.05);
+}
+
+.button-contato {
+  display: flex;
+  align-items: center;
+  margin: 25px auto;
+  border-radius: .2em;
+  color: #000000;
+  background: rgba(255, 255, 255, 0);
+  padding: 4%;
+  font-weight: 400;
+  font-size: 16px;
+  border-bottom: #000000;
+  border: 1px solid #000000;
+  padding: 13px 100px;
+}
+.button-contato:hover{
+  box-shadow: 3px 5px 8px #5f5f5f;
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.5s all;
+}
+
+
+
+.fist-part {
+  flex-direction: column;
+  width: 80%;
+}
+
+.rodape-apapelaria {
+  background-color: rgb(29, 29, 31);
+  padding: 2em;
+}
+
+.icons-rodape {
+  display: flex;
+  width: 100px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.icons-rodape h3 {
+  font-size: 30px;
+  color: white;
+  font-weight: 100px;
+  margin: 10px;
+}
+
+.container-rodape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.imgs-rodape .icons {
+  margin: 20px;
+}
+
+.rodapePrincipal-nav {
+  margin: 40px auto;
+}
+
+.rodapePrincipal-nav-link {
+  color: white;
+  margin: 18px;
+}
+.rodapePrincipal-nav-link:hover{
+  color: #e0d359;
+  transition: 0.5s all;
+  font-size: 16.5px;
+}
