@@ -12,9 +12,12 @@ O **PartyPass** é um site simples que fiz para praticar o design e o front end 
 ## 🛠️ Tecnologias
 
 - HTML5  
-- CSS3  
-- Google Maps Embed  
+- CSS3
+- Google Maps Embed
 
+> 📝 Observações
+Projeto simples e estático, perfeito para quem quer um site limpo, leve e fácil de manter.
+Pode ser base para projetos maiores, com backend e mais funcionalidades futuramente.
 ## 📥 Como rodar o projeto
 
 Abra o terminal e siga os passos abaixo:
@@ -30,6 +33,7 @@ cd PartyPass
 ```
 
 > 💡 Recomendado: instalar a extensão **Live Server** no VSCode para recarregar automaticamente as alterações.
+
 
 
 ## 👤 Autor
