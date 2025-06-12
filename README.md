@@ -31,10 +31,6 @@ cd PartyPass
 
 > 💡 Recomendado: instalar a extensão **Live Server** no VSCode para recarregar automaticamente as alterações.
 
-## 🖼️ Algumas imgens do projeto
-
-- ![Homepage](https://media.discordapp.net/attachments/1250289117909090375/1382727246808219799/image.png?ex=684c3499&is=684ae319&hm=fe4676365d423dab7a06ddf604eb2ff117d4fa6ce51be18f40ba0dc823092377&=&format=webp&quality=lossless&width=1202&height=597)
-- ![Planos](https://media.discordapp.net/attachments/1250289117909090375/1382727246808219799/image.png?ex=684c3499&is=684ae319&hm=fe4676365d423dab7a06ddf604eb2ff117d4fa6ce58f40ba0dc823092377&=&format=webp&quality=lossless&width=1202&height=597)
 
 ## 👤 Autor
 
